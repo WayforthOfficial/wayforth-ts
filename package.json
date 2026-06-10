@@ -16,7 +16,7 @@
   "homepage": "https://wayforth.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/WayforthOfficial/wayforth-ts.git"
+    "url": "git+https://github.com/WayforthOfficial/wayforth-ts.git"
   },
   "license": "BSL-1.1",
   "author": "Wayforth Technologies Inc.",
