@@ -39,7 +39,7 @@ export interface SearchResult {
   description: string | null;
   /** Semantic relevance score (0–100) */
   score: number;
-  /** WayforthRank reliability index (0–100) */
+  /** reliability score (0–100) — merit-based, no paid placement */
   wri: number;
   ranking_version: 'v1' | 'v2';
   reason: string;
