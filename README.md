@@ -89,7 +89,7 @@ Each `SearchResult`:
 |-------|------|-------------|
 | `name` | `string` | Service name |
 | `slug` | `string \| null` | Execution slug |
-| `wri` | `number` | WayforthRank score 0–100 |
+| `wri` | `number` | reliability score, 0–100 (merit-based, no paid placement) |
 | `coverage_tier` | `0\|1\|2\|3` | 0=submitted · 1=probed · 2=verified · 3=managed |
 | `pricing.per_call_usd` | `number \| null` | USD price per call |
 | `boost_active` | `boolean` | True if provider has an active Pioneer Boost |
